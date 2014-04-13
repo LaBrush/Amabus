@@ -1,0 +1,11 @@
+
+{{input value=name}}
+<br><br>
+
+{{view App.MapWithCoordinatesView latitude=latitude longitude=longitude address=address}}
+<br><br>
+
+<button {{action 'save'}}>Sauvegarder</button>
+<button {{action 'rollback'}}>Annuler</button>
+<button {{action 'delete'}}>Supprimer</button>
+<br><br>

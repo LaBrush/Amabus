@@ -1,0 +1,8 @@
+
+<ul>
+	{{#each }}
+		<li>{{#link-to 'guidage' this }}{{name}}{{/link-to}}</li>
+	{{else }}
+		<li>{{#link-to 'favoris.new' }}Ajouter un favori{{/link-to}}</li>
+	{{/each }}
+</ul>
