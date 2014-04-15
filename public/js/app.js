@@ -86,8 +86,14 @@ App = Ember.Application.create();
 		latitude: DS.attr('number')
 	});
 
-	App.ApplicationSerializer = DS.LSSerializer.extend();
-	App.ApplicationAdapter = DS.LSAdapter.extend({namespace: 'amabus-ember'});
+	App.ApplicationAdapter = DS.RESTAdapter.extend({
+		namespace: 'api',
+		host: 'http://localhost:8888'
+	});
+
+	// App.ApplicationSerializer = DS.LSSerializer.extend();
+	// App.ApplicationAdapter = DS.LSAdapter.extend({namespace: 'amabus-ember'});
+	
 	// App.ApplicationAdapter = DS.FixtureAdapter;
 	// App.Favori.FIXTURES = [
 	// 	{ id: 1, name: 'Maison', address: '200 route des Rieux', latitude: 45.19677, longitude: 5.7334 },
