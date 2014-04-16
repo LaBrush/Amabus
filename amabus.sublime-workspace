@@ -4,16 +4,28 @@
 		"selected_items":
 		[
 			[
+				"fa",
+				"favorisSchema"
+			],
+			[
+				"fav",
+				"favori"
+			],
+			[
+				"con",
+				"console.error(message);"
+			],
+			[
+				"cons",
+				"console.log(message);"
+			],
+			[
 				"par",
 				"params"
 			],
 			[
 				"remove",
 				"removeClass"
-			],
-			[
-				"con",
-				"content"
 			],
 			[
 				"add",
@@ -126,10 +138,6 @@
 			[
 				"hei",
 				"height"
-			],
-			[
-				"cons",
-				"console"
 			],
 			[
 				"clear",
@@ -506,14 +514,6 @@
 			[
 				"edit",
 				"editing"
-			],
-			[
-				"set",
-				"setItem"
-			],
-			[
-				"loc",
-				"localStorage"
 			]
 		]
 	},
@@ -526,6 +526,10 @@
 		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"ren",
+				"File: Rename"
+			],
 			[
 				"ember",
 				"Snippet: Ember.Route.extend()"
@@ -573,10 +577,6 @@
 			[
 				"js",
 				"Set Syntax: JavaScript"
-			],
-			[
-				"ren",
-				"File: Rename"
 			],
 			[
 				"jquer",
@@ -1056,6 +1056,12 @@
 	},
 	"file_history":
 	[
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/model.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/favoris.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/people.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/index.html",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/amabus.sublime-project",
 		"/Users/adrienbocquet/Desktop/starter-kit-1.5.0/js/app.js",
 		"/Users/adrienbocquet/Desktop/Flipbook/README.md",
@@ -1177,13 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/security.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/partials/navbar.html",
 		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/profil.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/base.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/model.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routes.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/YannBox/lib/security.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/front.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/index.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/fixtures.js"
+		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/base.html"
 	],
 	"find":
 	{
@@ -1268,6 +1268,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"'/favoris",
+			"favoris",
+			"people",
+			"number",
+			"latitude",
+			"string",
+			"number",
+			"attr",
+			"getAll",
+			"updatePerson",
+			"bodyParser",
 			"carton",
 			"class",
 			"hidden",
@@ -1384,18 +1395,7 @@
 			"        ",
 			"       ",
 			"      ",
-			"     ",
-			"    ",
-			"   ",
-			"  ",
-			", ",
-			"Revision",
-			"String",
-			"right",
-			"<th class=\"col-md-2 text-right\">Nombre d'articles</th>",
-			"col-md-2 text-right",
-			"col-md-5",
-			"<th"
+			"     "
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1522,7 +1522,11 @@
 		[
 			[
 				"app",
-				"js/app.js"
+				"public/js/app.js"
+			],
+			[
+				"html",
+				"public/index.html"
 			],
 			[
 				"",
@@ -1623,10 +1627,6 @@
 			[
 				"dat",
 				"public/js/datas.js"
-			],
-			[
-				"html",
-				"views/index.html"
 			],
 			[
 				"so",

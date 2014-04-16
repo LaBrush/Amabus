@@ -1,11 +1,13 @@
+<div>
+	<div class="form-group">
+		<label for="name">Nom du favori</label>
+		{{input value=name class="form-control" id="name" placeholder="Nom du favori"}}
+	</div>
 
-{{input value=name}}
-<br><br>
+	{{view App.MapWithCoordinatesView latitude=latitude longitude=longitude address=address}}
 
-{{view App.MapWithCoordinatesView latitude=latitude longitude=longitude address=address}}
-<br><br>
-
-<button {{action 'save'}}>Sauvegarder</button>
-<button {{action 'rollback'}}>Annuler</button>
-<button {{action 'delete'}}>Supprimer</button>
-<br><br>
+	<div class="topped-20">
+		<button class="btn btn-success" {{action 'save'}}>Sauvegarder</button>
+		<button class="btn btn-danger" {{action 'delete'}}>Supprimer</button>
+	</div>
+</div>

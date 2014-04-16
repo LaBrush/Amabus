@@ -32,8 +32,18 @@ App = Ember.Application.create();
 	
 	App.MapView = Ember.View.extend({
 		didInsertElement: function() {
+
+			var $this = $(this.$());
+			$(window).resize(function(){
+
+				$this.width(
+					$this.parent().width()
+				);
+
+			});
+
 			// this is required for the map to be rendered
-			this.$().css({ width: "800px", height: "300px" });
+			$this.css({ width: $this.parent().width(), height: "300px" });
 			var center = new google.maps.LatLng(this.get("latitude"),this.get("longitude"));
 			var options = {
 				disableDefaultUI: true,
@@ -86,20 +96,20 @@ App = Ember.Application.create();
 		latitude: DS.attr('number')
 	});
 
-	App.ApplicationAdapter = DS.RESTAdapter.extend({
-		namespace: 'api',
-		host: 'http://localhost:8888'
-	});
+	// App.ApplicationAdapter = DS.RESTAdapter.extend({
+		// namespace: 'api',
+		// host: 'http://localhost:8888'
+	// });
 
 	// App.ApplicationSerializer = DS.LSSerializer.extend();
 	// App.ApplicationAdapter = DS.LSAdapter.extend({namespace: 'amabus-ember'});
 	
-	// App.ApplicationAdapter = DS.FixtureAdapter;
-	// App.Favori.FIXTURES = [
-	// 	{ id: 1, name: 'Maison', address: '200 route des Rieux', latitude: 45.19677, longitude: 5.7334 },
-	// 	{ id: 2, name: 'Baptiste', address: '45 chemin du piat', latitude: 45.19377, longitude: 5.7394 },
-	// 	{ id: 3, name: 'Lycée', address: '2 avenue du taillefer', latitude: 45.18677, longitude: 5.7314 }
-	// ];
+	App.ApplicationAdapter = DS.FixtureAdapter;
+	App.Favori.FIXTURES = [
+		{ id: 1, name: 'Maison', address: '200 route des Rieux', latitude: 45.19677, longitude: 5.7334 },
+		{ id: 2, name: 'Baptiste', address: '45 chemin du piat', latitude: 45.19377, longitude: 5.7394 },
+		{ id: 3, name: 'Lycée', address: '2 avenue du taillefer', latitude: 45.18677, longitude: 5.7314 }
+	];
 
 // GESTION DES ROUTES
 
@@ -169,11 +179,6 @@ App = Ember.Application.create();
 		actions: {
 			save: function(){
 				this.get('model').save();
-				this.transitionToRoute('favoris.index');
-			},
-
-			rollback: function(){
-				this.get('model').rollback();
 				this.transitionToRoute('favoris.index');
 			},
 

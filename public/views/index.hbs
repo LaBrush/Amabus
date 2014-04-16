@@ -1,8 +1,15 @@
 
-<ul>
-	{{#each }}
-		<li>{{#link-to 'guidage' this }}{{name}}{{/link-to}}</li>
-	{{else }}
-		<li>{{#link-to 'favoris.new' }}Ajouter un favori{{/link-to}}</li>
-	{{/each }}
-</ul>
+<div class="col-md-6 col-md-offset-3">
+	<p class="text-center">Cliquez sur un favori pour obtenir le chemin</p>
+
+	<div class="list-group">
+		{{#each }}
+			{{#link-to 'guidage' this class="list-group-item" }}
+				<h4 class="list-group-item-heading">{{name}}</h4>
+				<p class="list-group-item-text hidden-xs">{{address}}</p>
+			{{/link-to}}
+		{{ else }}
+			{{#link-to 'favoris.new' class="list-group-item text-center" }}Ajouter un favori{{/link-to}}<
+		{{/each }}
+	</div>
+</div>

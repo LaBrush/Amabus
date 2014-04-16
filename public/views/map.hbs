@@ -1,5 +1,13 @@
 
+<div class="form-group">
+	<label for="address">Adresse</label>
+
+	<div class="input-group">
+		{{input value=address action='addressChanged' class="form-control" id="address" placeholder="Nom du favori"}}
+		<span class="input-group-btn">
+			<button class="btn btn-default" type="button" {{ action 'addressChanged' }}>Rechercher</button>
+		</span>
+	</div>
+</div>
+
 {{view App.MapView latitudeBinding="view.latitude" longitudeBinding="view.longitude" altitudeBinding="view.altitude"}}
-<br>
-{{input value=address size=30 action='addressChanged'}}
-<br><br>
