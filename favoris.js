@@ -31,16 +31,66 @@ var favoris = {
 
 	create: function(req, res){
 
-		Favori.create()
+		var body = req.body.favori ;
+		var favori = {
+			name: body.name,
+			address: body.address,
+
+			latitude: parseFloat(body.latitude),
+			longitude: parseFloat(body.longitude)
+		}
+
+		Favori.create(favori, function(err, favori){
+
+			if(err){
+				console.error(err);
+				res.send(500);
+				return -1 ;
+			}
+
+			res.send(200);
+
+		});
+
+		return req.body ;
 
 	},
 
 	update: function(req, res){
 
+		var body = req.body.favori ;
+		var favori = {
+			name: body.name,
+			address: body.address,
+
+			latitude: parseFloat(body.latitude),
+			longitude: parseFloat(body.longitude)
+		}
+
+		Favori.find({id: req.params.id}, favori, function(err, favori){
+
+			if(err){
+				console.error(err);
+				res.send(500);
+				return -1 ;
+			}
+
+			res.send(200);
+
+		});
+
+		return req.body ;
 	},
 
 	delete: function(req, res){
-
+		Favori.findByIdAndRemove(req.params.id, function(err){
+			if(err){
+				console.error(err);
+				res.send(500);
+			} else {
+				res.send(200);
+			}
+		})
 	}
 };
 

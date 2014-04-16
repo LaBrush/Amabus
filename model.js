@@ -16,4 +16,14 @@ var favorisSchema = mongoose.Schema({
 	latitude: Number
 });
 
-var favori = mongoose.model('Favori', favorisSchema);
+var Favori = mongoose.model('Favori', favorisSchema);
+
+Favori.remove({}, function(){ console.log("All favoris removed");})
+Favori.create({
+	name: 'Hacklab',
+	address: '1 Place Saint-Laurent 38000 Grenoble',
+	latitude: 45.1977842, 
+	longitude: 5.7313602
+}, function(){
+	console.log("Fixtures updated");
+})

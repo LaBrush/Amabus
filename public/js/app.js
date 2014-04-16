@@ -10,8 +10,8 @@ App = Ember.Application.create();
 		'sync',
 		'about',
 		'favoris/index',
-		'favoris/edit',
-		'favoris/new'
+		'favoris/new',
+		'favoris/edit'
 
 	];
 
@@ -96,20 +96,27 @@ App = Ember.Application.create();
 		latitude: DS.attr('number')
 	});
 
-	// App.ApplicationAdapter = DS.RESTAdapter.extend({
-		// namespace: 'api',
-		// host: 'http://localhost:8888'
-	// });
+
+
+	App.ApplicationAdapter = DS.RESTAdapter.extend({
+		namespace: 'api',
+		host: 'http://localhost:8888'
+	});
+
+	DS.RESTSerializer.reopen({
+ 		primaryKey: '_id'
+	});
+
 
 	// App.ApplicationSerializer = DS.LSSerializer.extend();
 	// App.ApplicationAdapter = DS.LSAdapter.extend({namespace: 'amabus-ember'});
 	
-	App.ApplicationAdapter = DS.FixtureAdapter;
-	App.Favori.FIXTURES = [
-		{ id: 1, name: 'Maison', address: '200 route des Rieux', latitude: 45.19677, longitude: 5.7334 },
-		{ id: 2, name: 'Baptiste', address: '45 chemin du piat', latitude: 45.19377, longitude: 5.7394 },
-		{ id: 3, name: 'Lycée', address: '2 avenue du taillefer', latitude: 45.18677, longitude: 5.7314 }
-	];
+	// App.ApplicationAdapter = DS.FixtureAdapter;
+	// App.Favori.FIXTURES = [
+		// { id: 1, name: 'Maison', address: '200 route des Rieux', latitude: 45.19677, longitude: 5.7334 },
+		// { id: 2, name: 'Baptiste', address: '45 chemin du piat', latitude: 45.19377, longitude: 5.7394 },
+		// { id: 3, name: 'Lycée', address: '2 avenue du taillefer', latitude: 45.18677, longitude: 5.7314 }
+	// ];
 
 // GESTION DES ROUTES
 
@@ -146,18 +153,14 @@ App = Ember.Application.create();
 
 	App.FavorisNewRoute = Ember.Route.extend({
 
-		// renderTemplate: function(){
-			// this.render('favoris/edit');
-		// },
-
-		 controllerName: 'FavorisEdit',
+		controllerName: 'FavorisEdit',
 
 		model: function(){
 			return this.store.createRecord('favori',{
-				name: 'Hancklab',
-				address: '42 baker street',
-				latitude: 45.19677, 
-				longitude: 5.7334
+				name: 'Hacklab',
+				address: '1 Place Saint-Laurent 38000 Grenoble',
+				latitude: 45.1977842, 
+				longitude: 5.7313602
 			});
 		}
 	});
@@ -165,11 +168,7 @@ App = Ember.Application.create();
 	App.FavorisEditRoute = Ember.Route.extend({
 		model: function(params) {
 			return this.store.find('favori', params.favori_id);
-		},
-
-		// serialize: function(model){
-			// return { 'favori': model.get('name').dasherize() }
-		// }
+		}
 	});
 
 // LES CONTROLLEURS
