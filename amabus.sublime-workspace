@@ -4,20 +4,88 @@
 		"selected_items":
 		[
 			[
-				"fa",
-				"favorisSchema"
-			],
-			[
 				"fav",
 				"favori"
 			],
 			[
 				"con",
-				"console.error(message);"
+				"console.log(message);"
+			],
+			[
+				"fa",
+				"favori"
+			],
+			[
+				"get",
+				"getPosition"
+			],
+			[
+				"re",
+				"reject"
+			],
+			[
+				"que",
+				"query"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"di",
+				"directionRequest"
+			],
+			[
+				"pa",
+				"passport"
+			],
+			[
+				"ex",
+				"extend"
+			],
+			[
+				"conso",
+				"console.log(message);"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"find",
+				"findById"
+			],
+			[
+				"FA",
+				"FACEBOOK_APP_ID"
+			],
+			[
+				"up",
+				"updated"
 			],
 			[
 				"cons",
 				"console.log(message);"
+			],
+			[
+				"fao",
+				"favori"
+			],
+			[
+				"pr",
+				"params"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"cont",
+				"container"
+			],
+			[
+				"conr",
+				"container"
 			],
 			[
 				"par",
@@ -94,10 +162,6 @@
 			[
 				"back",
 				"background-color"
-			],
-			[
-				"re",
-				"return"
 			],
 			[
 				"data",
@@ -228,10 +292,6 @@
 				"console.log(message);"
 			],
 			[
-				"pa",
-				"padding-bottom"
-			],
-			[
 				"revis",
 				"revisions"
 			],
@@ -242,10 +302,6 @@
 			[
 				"Ar",
 				"ArticleSchema"
-			],
-			[
-				"pro",
-				"process"
 			],
 			[
 				"arti",
@@ -264,10 +320,6 @@
 				"start"
 			],
 			[
-				"pr",
-				"progress"
-			],
-			[
 				"l",
 				"log"
 			],
@@ -280,10 +332,6 @@
 				"Article"
 			],
 			[
-				"find",
-				"findOrCreate"
-			],
-			[
 				"Art",
 				"ArticleSchema"
 			],
@@ -294,10 +342,6 @@
 			[
 				"Ari",
 				"Article"
-			],
-			[
-				"get",
-				"getPath"
 			],
 			[
 				"r",
@@ -326,10 +370,6 @@
 			[
 				"proc",
 				"process"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"liste",
@@ -382,10 +422,6 @@
 			[
 				"form",
 				"form_widget"
-			],
-			[
-				"ex",
-				"exports"
 			],
 			[
 				"bo",
@@ -444,10 +480,6 @@
 				"require"
 			],
 			[
-				"cont",
-				"controller"
-			],
-			[
 				"cone",
 				"content"
 			],
@@ -482,38 +514,6 @@
 			[
 				"load",
 				"loadNextRoute"
-			],
-			[
-				"loa",
-				"loadRoutes"
-			],
-			[
-				"rq",
-				"requirements"
-			],
-			[
-				"console",
-				"console.log(message);"
-			],
-			[
-				"conso",
-				"console.log(message);"
-			],
-			[
-				"consoe",
-				"console.log(message);"
-			],
-			[
-				"tw",
-				"tweetId"
-			],
-			[
-				"t",
-				"twitter"
-			],
-			[
-				"edit",
-				"editing"
 			]
 		]
 	},
@@ -523,9 +523,45 @@
 	"build_system": "Packages/User/PHP-Lint.sublime-build",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 367.0,
 		"selected_items":
 		[
+			[
+				"each",
+				"Snippet: each(handlebars)"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"dele",
+				"File: Delete"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"rena",
+				"File: Rename"
+			],
+			[
+				"align",
+				"AlignTab"
+			],
+			[
+				"du",
+				"File: Duplicate"
+			],
+			[
+				"dle",
+				"File: Delete"
+			],
+			[
+				"han",
+				"Set Syntax: Handlebars"
+			],
 			[
 				"ren",
 				"File: Rename"
@@ -537,10 +573,6 @@
 			[
 				"install",
 				"Package Control: Install Package"
-			],
-			[
-				"tabs",
-				"Indentation: Convert to Tabs"
 			],
 			[
 				"ta",
@@ -575,10 +607,6 @@
 				"File: Delete"
 			],
 			[
-				"js",
-				"Set Syntax: JavaScript"
-			],
-			[
 				"jquer",
 				"Snippet: Google AJAX Libraries: jQuery"
 			],
@@ -589,14 +617,6 @@
 			[
 				"dupl",
 				"File: Duplicate"
-			],
-			[
-				"du",
-				"File: Duplicate"
-			],
-			[
-				"dele",
-				"File: Delete"
 			],
 			[
 				"remove",
@@ -675,10 +695,6 @@
 				"Package Control: Install Package"
 			],
 			[
-				"han",
-				"Set Syntax: Handlebars"
-			],
-			[
 				"remo",
 				"Package Control: Remove Package"
 			],
@@ -693,10 +709,6 @@
 			[
 				"ref",
 				"Side Bar: Refresh"
-			],
-			[
-				"align",
-				"AlignTab"
 			],
 			[
 				"ali",
@@ -729,10 +741,6 @@
 			[
 				"alig",
 				"AlignTab: Table Mode"
-			],
-			[
-				"rena",
-				"File: Rename"
 			],
 			[
 				"jqu",
@@ -1029,17 +1037,9 @@
 			[
 				"bro",
 				"Preferences: Browse Packages"
-			],
-			[
-				"instak",
-				"Package Control: Install Package"
-			],
-			[
-				"toggle s",
-				"View: Toggle Open Files in Side Bar"
 			]
 		],
-		"width": 647.0
+		"width": 567.0
 	},
 	"console":
 	{
@@ -1056,12 +1056,26 @@
 	},
 	"file_history":
 	[
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/app.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/app.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/model.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/favoris.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/people.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/guidage.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/guidage.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/css/added.css",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/map.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/itineraire.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/edit.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/security.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/sync.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/model.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/index.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/favoris.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/keys.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/security",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/index.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/new.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/about.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/people.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/amabus.sublime-project",
 		"/Users/adrienbocquet/Desktop/starter-kit-1.5.0/js/app.js",
 		"/Users/adrienbocquet/Desktop/Flipbook/README.md",
@@ -1169,21 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/row.html",
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/full.html",
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/Text.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/index.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/Label.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/text.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/constraints/index.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Press/press.sublime-project",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/security.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/user/profil.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/user.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/login.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/helpers.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/app.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/lib/routing/security.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/partials/navbar.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/profil.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Yannbox/views/base.html"
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/index.js"
 	],
 	"find":
 	{
@@ -1268,6 +1268,55 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"favori",
+			"pos",
+			"name",
+			"G50",
+			"position",
+			"from",
+			"					\n",
+			"values",
+			"position",
+			"md",
+			"item",
+			"</a",
+			"a href=\"\"",
+			"this",
+			"this.waypoints",
+			"longitude",
+			"18677",
+			"45",
+			"latitude",
+			"res",
+			".",
+			"name",
+			"session",
+			";",
+			"app",
+			"FACEBOOK_APP_SECRET",
+			"security",
+			"ed1911f21f8f90be3b9261cc8c27eba0",
+			"FACEBOOK_APP_SECRET",
+			"KEYS",
+			"FACEBOOK_APP_ID",
+			"Number",
+			"button",
+			"673004596045448",
+			"557955873c7eb2cdfdf37c2e66fa33d4",
+			"model",
+			"longitude",
+			"body",
+			"favori",
+			"req",
+			",",
+			"favoris.",
+			"favoris",
+			"12",
+			" {{action '",
+			"button",
+			"name",
+			"span",
+			"li",
 			"'/favoris",
 			"favoris",
 			"people",
@@ -1346,56 +1395,7 @@
 			"temperatures",
 			"stateSchema",
 			"data",
-			"</canva",
-			"</",
-			"canvas",
-			"220,220,220",
-			"rgba(220,220,220,1)",
-			"6\"></canvas>",
-			"height",
-			"canevas",
-			"charts",
-			"},",
-			"{\n	{",
-			"7",
-			"1009",
-			"1023",
-			"p",
-			"mongoose",
-			"visiteurs",
-			"rapports",
-			"hasOne",
-			"createdAt",
-			"er",
-			"revision",
-			"revisions",
-			"User",
-			"Project",
-			"Article",
-			"nota",
-			"date",
-			"content",
-			"request",
-			"checksum",
-			"request",
-			"nme",
-			"that",
-			"nb_article",
-			"nb_articles",
-			"Revision",
-			"mongoose",
-			"createdAt",
-			"  ",
-			"User",
-			"    ",
-			"   ",
-			"  ",
-			"lodash",
-			"require",
-			"        ",
-			"       ",
-			"      ",
-			"     "
+			"</canva"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1521,20 +1521,120 @@
 		"selected_items":
 		[
 			[
-				"app",
+				"index",
+				"public/index.html"
+			],
+			[
+				"gui",
+				"public/views/guidage.hbs"
+			],
+			[
+				"",
 				"public/js/app.js"
+			],
+			[
+				"ap",
+				"public/js/app.js"
+			],
+			[
+				"app",
+				"app.js"
+			],
+			[
+				"guidage",
+				"guidage.js"
+			],
+			[
+				"guida",
+				"guidage.js"
+			],
+			[
+				"guid",
+				"public/views/guidage.hbs"
+			],
+			[
+				"css",
+				"public/css/added.css"
+			],
+			[
+				"map",
+				"public/views/map.hbs"
+			],
+			[
+				"edit",
+				"public/views/favoris/edit.hbs"
+			],
+			[
+				"sync",
+				"public/views/sync.hbs"
+			],
+			[
+				"ser",
+				"security.js"
+			],
+			[
+				"model",
+				"model.js"
+			],
+			[
+				"se",
+				"security.js"
+			],
+			[
+				"ide",
+				"public/index.html"
+			],
+			[
+				"key",
+				"keys.js"
+			],
+			[
+				"ke",
+				"keys.js"
+			],
+			[
+				"inde",
+				"public/views/index.hbs"
+			],
+			[
+				"mo",
+				"model.js"
+			],
+			[
+				"n",
+				"public/views/favoris/new.hbs"
+			],
+			[
+				"favo",
+				"favoris.js"
+			],
+			[
+				"syn",
+				"public/views/sync.hbs"
+			],
+			[
+				"abou",
+				"public/views/about.hbs"
+			],
+			[
+				"fain",
+				"public/views/favoris/index.hbs"
+			],
+			[
+				"fave",
+				"public/views/favoris/edit.hbs"
+			],
+			[
+				"edi",
+				"public/views/favoris/edit.hbs"
+			],
+			[
+				"fa",
+				"public/views/favoris/index.hbs"
 			],
 			[
 				"html",
 				"public/index.html"
-			],
-			[
-				"",
-				"index.html"
-			],
-			[
-				"inde",
-				"index.html"
 			],
 			[
 				"main",
@@ -1601,10 +1701,6 @@
 				"sass/objects.scss"
 			],
 			[
-				"css",
-				"css/icons.css"
-			],
-			[
 				"par",
 				"sass/partial.scss"
 			],
@@ -1615,14 +1711,6 @@
 			[
 				"icons",
 				"css/icons.css"
-			],
-			[
-				"ser",
-				"serial.js"
-			],
-			[
-				"model",
-				"model.js"
 			],
 			[
 				"dat",
@@ -1643,14 +1731,6 @@
 			[
 				"eve",
 				"events.js"
-			],
-			[
-				"ap",
-				"app.js"
-			],
-			[
-				"se",
-				"serial.js"
 			],
 			[
 				"soc",
@@ -1689,10 +1769,6 @@
 				"serial.js"
 			],
 			[
-				"index",
-				"views/index.html"
-			],
-			[
 				"event",
 				"events.js"
 			],
@@ -1711,10 +1787,6 @@
 			[
 				"appor",
 				"models/rapport.js"
-			],
-			[
-				"mo",
-				"models/revision.js"
 			],
 			[
 				"re",
@@ -1959,78 +2031,6 @@
 			[
 				"kerne",
 				"kernel.js"
-			],
-			[
-				"r",
-				"routing.json"
-			],
-			[
-				"cont",
-				"Controllers/HomeController.js"
-			],
-			[
-				"mod",
-				"models.js"
-			],
-			[
-				"fav",
-				"web/js/favoris.js"
-			],
-			[
-				"fao",
-				"web/sass/_favoris.scss"
-			],
-			[
-				"fa",
-				"web/js/favoris.js"
-			],
-			[
-				"cla",
-				"web/sass/_classes.scss"
-			],
-			[
-				"sync",
-				"web/js/sync.js"
-			],
-			[
-				"guide",
-				"web/js/guide.js"
-			],
-			[
-				"favoris",
-				"web/js/favoris.js"
-			],
-			[
-				"f",
-				"web/js/favoris.js"
-			],
-			[
-				"a",
-				"app.js"
-			],
-			[
-				"favo",
-				"web/js/favoris.js"
-			],
-			[
-				"sta",
-				"static_file.js"
-			],
-			[
-				"med",
-				"sass/_mediaqueries.scss"
-			],
-			[
-				"js",
-				"js/api.js"
-			],
-			[
-				"cl",
-				"sass/_classes.scss"
-			],
-			[
-				"fasc",
-				"sass/_favoris.scss"
 			]
 		],
 		"width": 0.0

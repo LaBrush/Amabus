@@ -1,11 +1,10 @@
 
 <div class="col-md-6 col-md-offset-3">
 	<p class="text-center">Cliquez sur un favori pour obtenir le chemin</p>
-	<p>{{ length }} favoris</p>
 
 	<div class="list-group">
 		{{#each }}
-			{{#link-to 'guidage' this class="list-group-item" }}
+			{{#link-to 'guidage' this.id class="list-group-item" }}
 				<h4 class="list-group-item-heading">{{name}}</h4>
 				<p class="list-group-item-text hidden-xs">{{address}}</p>
 			{{/link-to}}

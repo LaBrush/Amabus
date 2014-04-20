@@ -8,7 +8,11 @@ db.once('open', function callback () {
 	console.log('DB online');
 });
 
+// FAVORIS
+
 var favorisSchema = mongoose.Schema({
+	provider_id: String,
+
 	name: String,
 	address: String,
 
@@ -17,6 +21,20 @@ var favorisSchema = mongoose.Schema({
 });
 
 var Favori = mongoose.model('Favori', favorisSchema);
+
+// UTILISATEURS
+
+var userSchema = mongoose.Schema({
+	provider_id: String,
+	name: String,
+	email: String,
+
+	favoris: [favorisSchema]
+});
+
+var User = mongoose.model('User', userSchema);
+
+// FIXTURES
 
 Favori.remove({}, function(){ console.log("All favoris removed");})
 Favori.create({

@@ -1,7 +1,21 @@
-<p>Allons au point {{name}}</p>
 
-<ul>
-	<li>Avancer</li>
-	<li>Rater le bus</li>
-	<li>Vous êtes arrivé</li>
-</ul>
+<h2 class="text-center dont-top">Aller à {{ favori.name }}</h2>
+
+
+{{#each trajet.bus}}
+	<div>
+		<h3 class="dont-top">{{name}} <small>Direction {{direction}}</small></h3>
+
+		<div class="text-center row">
+			<ul class="liste-horaires col-xs-12 col-sm-4 col-sm-offset-4">
+				{{#each horaires}}
+					<li class="col-xs-6 col-sm-3">{{this}}</li>
+				{{/each}}
+			</ul>
+		</div>
+
+		<p class="text-center dont-bottom dont-top">Monter à <em>{{ enter.name }} ({{enter.city}})</em> et descendre à <em>{{down.name}} ({{down.city}})</em></p>
+
+		<hr>
+	</div>
+{{/each}}
