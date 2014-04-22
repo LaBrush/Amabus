@@ -4,6 +4,7 @@
 
 	<div class="list-group">
 		{{#each }}
+			{{ log this.id }}
 			{{#link-to 'guidage' this.id class="list-group-item" }}
 				<h4 class="list-group-item-heading">{{name}}</h4>
 				<p class="list-group-item-text hidden-xs">{{address}}</p>

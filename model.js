@@ -26,8 +26,11 @@ var Favori = mongoose.model('Favori', favorisSchema);
 
 var userSchema = mongoose.Schema({
 	provider_id: String,
+	provider: String,
+
 	name: String,
 	email: String,
+	gender: String,
 
 	favoris: [favorisSchema]
 });

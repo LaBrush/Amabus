@@ -1,10 +1,9 @@
-
 <div class="col-md-6 col-md-offset-3">
 	<p class="text-center">Cliquez sur un favori pour le modifier</p>
 
 	<div class="list-group">
 		{{#each }}
-			{{#link-to 'favoris.edit' this class="list-group-item" }}
+			{{#link-to 'favoris.edit' this.id class="list-group-item" }}
 				<h4 class="list-group-item-heading">{{name}}</h4>
 				<p class="list-group-item-text hidden-xs">{{address}}</p>
 			{{/link-to}}

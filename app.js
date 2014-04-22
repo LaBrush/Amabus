@@ -24,11 +24,11 @@ app
 keys(app);
 security(app);
 
-// app.get(    '/api/favoris'     , favoris.findAll ); // Return all favoris
-// app.get(    '/api/favoris/:id' , favoris.findOne ); // Return person by id
-// app.post(   '/api/favoris'     , favoris.create  ); // Create A Person
-// app.put(    '/api/favoris/:id' , favoris.update  ); // Update a person by id
-// app.delete( '/api/favoris/:id' , favoris.delete  ); // Delete a person by id
+app.get(    '/api/favoris'     , favoris.findAll ); // Return all favoris
+app.get(    '/api/favoris/:id' , favoris.findOne ); // Return person by id
+app.post(   '/api/favoris'     , favoris.create  ); // Create A Person
+app.put(    '/api/favoris/:id' , favoris.update  ); // Update a person by id
+app.delete( '/api/favoris/:id' , favoris.delete  ); // Delete a person by id
 
 app.get('/api/guidage', guidage);
 

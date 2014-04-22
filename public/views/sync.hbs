@@ -1,8 +1,19 @@
 
+{{#with controllers.user }}
 
+{{#if isAuthenticated }}
+	<p class="text-center">
+		Bonjour {{ user.name }}, vous êtes connecté{{#if user.isFemale }}e{{/if }} par l'intermédiaire de vore compte {{ user.provider }}
+		<br><br>
+		Pour vous déconnecter <br>
+		<a href="/logout" class="btn btn-danger">Vous n'avez qu'à demander</a>
+	</p>
+{{ else }}
 	<p class="text-center">
 		Aucune synchronisation n'est activée. Vos informations sont stockées sur votre appareil. <br><br>
 		Pour les synchroniser <br>
 		<a class="btn btn-primary" href="/auth/facebook">connectez-vous via Facebook</a>
 	</p>
+{{/if}}
 
+{{/with }}
