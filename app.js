@@ -1,12 +1,12 @@
 var express = require('express'),
 	fs = require('fs'),
-	passport = require('passport'),
+	// passport = require('passport'),
 
-	model = require('./model'),
-	security = require('./security'),
-	keys = require('./keys'),
+	// model = require('./model'),
+	// security = require('./security'),
+	// keys = require('./keys'),
 
-	favoris = require('./favoris'),
+	// favoris = require('./favoris'),
 	guidage = require('./guidage')
 ;
 
@@ -17,18 +17,18 @@ app
 	.use(express.cookieParser())
 	.use(express.bodyParser())
 	.use(express.session({ secret: 'keyboard cat' }))
-	.use(passport.initialize())
-	.use(passport.session())
+	// .use(passport.initialize())
+	// .use(passport.session())
 ;
 
-keys(app);
-security(app);
+// keys(app);
+// security(app);
 
-app.get(    '/api/favoris'     , favoris.findAll ); // Return all favoris
-app.get(    '/api/favoris/:id' , favoris.findOne ); // Return person by id
-app.post(   '/api/favoris'     , favoris.create  ); // Create A Person
-app.put(    '/api/favoris/:id' , favoris.update  ); // Update a person by id
-app.delete( '/api/favoris/:id' , favoris.delete  ); // Delete a person by id
+// app.get(    '/api/favoris'     , favoris.findAll ); // Return all favoris
+// app.get(    '/api/favoris/:id' , favoris.findOne ); // Return person by id
+// app.post(   '/api/favoris'     , favoris.create  ); // Create A Person
+// app.put(    '/api/favoris/:id' , favoris.update  ); // Update a person by id
+// app.delete( '/api/favoris/:id' , favoris.delete  ); // Delete a person by id
 
 app.get('/api/guidage', guidage);
 

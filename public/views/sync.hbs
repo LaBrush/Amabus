@@ -1,7 +1,6 @@
 
-{{#with controllers.user }}
 
-{{#if isAuthenticated }}
+{{#if isAuth }}
 	<p class="text-center">
 		Bonjour {{ user.name }}, vous êtes connecté{{#if user.isFemale }}e{{/if }} par l'intermédiaire de vore compte {{ user.provider }}
 		<br><br>
@@ -15,5 +14,3 @@
 		<a class="btn btn-primary" href="/auth/facebook">connectez-vous via Facebook</a>
 	</p>
 {{/if}}
-
-{{/with }}

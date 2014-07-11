@@ -1,10 +1,41 @@
+var request = require('request');
+
 var guidage = function(req, res){
 
-	var from = req.query.from,
-		to = req.query.to
+	var date = new Date(),
+		url = 'http://dev.itinisere.fr/api/tripplanner/v1/plancrossmodetrip/json?key=ab1507cg0309' 
 	;
+	
+	var params = {
+		depType: 7,
+		depLon: req.query.from.lng,
+		depLat: req.query.from.lat,
 
-	var trajet = {
+		arrType: 7,
+		arrLon: req.query.to.lng,
+		arrLat: req.query.to.lat,
+
+		departureTime: date.getTime()
+	};
+
+	for(var key in params){
+		url += '&' + key + '=' + params[key] ;
+	};
+
+	console.log(url);
+
+	request.get(url, function(error, response, data){
+
+		var trajet = data ;
+		console.log(data);
+		res.json({});
+
+	});
+
+};
+
+module.exports = guidage ;
+/*var trajet = {
 		
 		expiresAt: (new Date().getTime()) + 3600,
 		bus: [
@@ -101,11 +132,4 @@ var guidage = function(req, res){
 				]
 			}],
 		ends: to
-
-	};
-
-	res.send(trajet);
-
-};
-
-module.exports = guidage ;
+	};*/

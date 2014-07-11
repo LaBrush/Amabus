@@ -10,7 +10,8 @@ var favoris = {
 				console.error(err);
 				res.send(500);
 			} else {
-				res.json({favoris: favoris});
+				// res.json({favoris: favoris});
+				res.json({favoris: []});
 			}
 		});
 

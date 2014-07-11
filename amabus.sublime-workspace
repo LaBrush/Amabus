@@ -4,12 +4,16 @@
 		"selected_items":
 		[
 			[
-				"fav",
-				"favori"
+				"res",
+				"response"
 			],
 			[
-				"con",
-				"console.log(message);"
+				"cre",
+				"createRecord"
+			],
+			[
+				"Fa",
+				"Favori"
 			],
 			[
 				"fa",
@@ -17,7 +21,39 @@
 			],
 			[
 				"get",
-				"getPosition"
+				"getJSON"
+			],
+			[
+				"use",
+				"user"
+			],
+			[
+				"pro",
+				"profile"
+			],
+			[
+				"Ap",
+				"Application"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"Mont",
+				"Montbonnot"
+			],
+			[
+				"cont",
+				"controller"
+			],
+			[
+				"fav",
+				"favori"
+			],
+			[
+				"con",
+				"console.log(message);"
 			],
 			[
 				"re",
@@ -48,10 +84,6 @@
 				"console.log(message);"
 			],
 			[
-				"pro",
-				"profile"
-			],
-			[
 				"find",
 				"findById"
 			],
@@ -78,10 +110,6 @@
 			[
 				"wi",
 				"width"
-			],
-			[
-				"cont",
-				"container"
 			],
 			[
 				"conr",
@@ -486,34 +514,6 @@
 			[
 				"route",
 				"routes"
-			],
-			[
-				"var",
-				"varName"
-			],
-			[
-				"va",
-				"varName"
-			],
-			[
-				"rou",
-				"routes"
-			],
-			[
-				"reui",
-				"requirements"
-			],
-			[
-				"require",
-				"requirements"
-			],
-			[
-				"res",
-				"result"
-			],
-			[
-				"load",
-				"loadNextRoute"
 			]
 		]
 	},
@@ -523,36 +523,44 @@
 	"build_system": "Packages/User/PHP-Lint.sublime-build",
 	"command_palette":
 	{
-		"height": 367.0,
+		"height": 147.0,
 		"selected_items":
 		[
 			[
-				"each",
-				"Snippet: each(handlebars)"
-			],
-			[
-				"tabs",
-				"Indentation: Convert to Tabs"
-			],
-			[
-				"dele",
-				"File: Delete"
-			],
-			[
-				"js",
-				"Set Syntax: JavaScript"
+				"hand",
+				"Set Syntax: Handlebars"
 			],
 			[
 				"rena",
 				"File: Rename"
 			],
 			[
-				"align",
-				"AlignTab"
+				"dele",
+				"File: Delete"
+			],
+			[
+				"tabs",
+				"Indentation: Convert to Tabs"
 			],
 			[
 				"du",
 				"File: Duplicate"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"each",
+				"Snippet: each(handlebars)"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"align",
+				"AlignTab"
 			],
 			[
 				"dle",
@@ -593,10 +601,6 @@
 			[
 				"css",
 				"Set Syntax: CSS"
-			],
-			[
-				"html",
-				"Snippet: html"
 			],
 			[
 				"de",
@@ -1033,13 +1037,9 @@
 			[
 				"pro",
 				"Project: Edit"
-			],
-			[
-				"bro",
-				"Preferences: Browse Packages"
 			]
 		],
-		"width": 567.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -1056,27 +1056,40 @@
 	},
 	"file_history":
 	[
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/index.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/guidage.hbs",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/app.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/guidage.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/guidage.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/guidage.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/keys.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/index.html",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/controllers/SyncController.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/app.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/sync.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/index.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/models/Favori.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/controllers/FavorisNewController.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/controllers/FavorisEditController.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/router.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/views/ItineraireView.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/views/MapView.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/load_templates.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/geolocation.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/libs/localstorage_adapter.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js/libs/localstorage_adapter_origin.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/amabus.sublime-project",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/favoris.js",
+		"/Applications/MAMP/bin/startMysql.sh",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/index.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/security.js",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/edit.hbs",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/model.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/css/added.css",
+		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/css/bootstrap.css",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/map.hbs",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/itineraire.hbs",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/edit.hbs",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/security.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/sync.hbs",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/model.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/index.hbs",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/favoris.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/keys.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/security",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/index.hbs",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/favoris/new.hbs",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/views/about.hbs",
 		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/people.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/Amabus/amabus.sublime-project",
 		"/Users/adrienbocquet/Desktop/starter-kit-1.5.0/js/app.js",
 		"/Users/adrienbocquet/Desktop/Flipbook/README.md",
 		"/Users/adrienbocquet/Programmation/JS - Native/arbitrage/www/index.html",
@@ -1170,20 +1183,7 @@
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/NotNull.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/index.js",
 		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/Length.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/forms.sublime-project",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/errors.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/label.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/text.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/Label.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/validators/ErrorType.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/index.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/widgets/traits.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/macros.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/package.json",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/row.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/views/full.html",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/Text.js",
-		"/Users/adrienbocquet/Programmation/NodeJS/forms/form/lib/widgets/index.js"
+		"/Users/adrienbocquet/Programmation/NodeJS/forms/forms.sublime-project"
 	],
 	"find":
 	{
@@ -1194,6 +1194,9 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/",
+			"/Users/adrienbocquet/Programmation/NodeJS/Amabus/public/js",
+			"<open folders>",
 			"<open files>,*.scss",
 			"/Users/adrienbocquet/Programmation/NodeJS/code urbanisme",
 			"/Users/adrienbocquet/Programmation/NodeJS/forms/",
@@ -1268,6 +1271,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"req",
+			"query",
+			"to",
+			"lat",
+			"+ '&' +",
+			"=",
+			"'",
+			"-",
+			"http",
+			"trajet",
+			"response",
+			"{{ log",
+			"console.log",
+			"Favori",
+			"models",
+			"router",
+			"200",
+			"that",
+			"v2",
+			"name",
+			"this",
+			"console",
+			";",
+			"app",
+			"sync",
+			"h4",
+			"class",
+			"h4",
+			"model",
+			"lg",
+			"md",
+			"-1",
+			"1",
+			"xl",
+			"s-6",
+			"loading",
 			"favori",
 			"pos",
 			"name",
@@ -1359,43 +1398,7 @@
 			"</p>",
 			"<p",
 			"p",
-			"<p class=\"minus\">-</p>\n				<p class=\"icon-list\"></p>\n				<p class=\"plus\">+</p>",
-			"<span></span>",
-			".bt-menu-trigger",
-			"list",
-			"font",
-			"icon",
-			"minus",
-			"EFA000",
-			"h1",
-			"settings",
-			"last",
-			"child",
-			"black",
-			"font",
-			"90px",
-			"<p>",
-			"color",
-			"a",
-			"vc_read_more",
-			"atitude-pro",
-			"col",
-			"chart",
-			"1000",
-			"151,187,205",
-			"220,220,220",
-			"datas",
-			";)",
-			"'][]",
-			"[",
-			"'][]",
-			"cycle",
-			"label",
-			"secret",
-			"temperatures",
-			"stateSchema",
-			"data",
-			"</canva"
+			"<p class=\"minus\">-</p>\n				<p class=\"icon-list\"></p>\n				<p class=\"plus\">+</p>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -1521,20 +1524,16 @@
 		"selected_items":
 		[
 			[
-				"index",
-				"public/index.html"
+				"keys",
+				"keys.js"
 			],
 			[
 				"gui",
 				"public/views/guidage.hbs"
 			],
 			[
-				"",
-				"public/js/app.js"
-			],
-			[
-				"ap",
-				"public/js/app.js"
+				"index",
+				"public/index.html"
 			],
 			[
 				"app",
@@ -1545,28 +1544,88 @@
 				"guidage.js"
 			],
 			[
-				"guida",
-				"guidage.js"
+				"sync",
+				"public/views/sync.hbs"
 			],
 			[
-				"guid",
-				"public/views/guidage.hbs"
+				"favo",
+				"public/js/models/Favori.js"
 			],
 			[
-				"css",
-				"public/css/added.css"
+				"lo",
+				"public/js/libs/localstorage_adapter.js"
 			],
 			[
-				"map",
-				"public/views/map.hbs"
+				"inde",
+				"public/index.html"
+			],
+			[
+				"ama",
+				"amabus.sublime-project"
+			],
+			[
+				"fa",
+				"public/views/favoris/index.hbs"
+			],
+			[
+				"",
+				"security.js"
+			],
+			[
+				"fav",
+				"public/views/favoris/index.hbs"
 			],
 			[
 				"edit",
 				"public/views/favoris/edit.hbs"
 			],
 			[
-				"sync",
+				"fin",
+				"public/views/favoris/index.hbs"
+			],
+			[
+				"fao",
+				"favoris.js"
+			],
+			[
+				"secu",
+				"security.js"
+			],
+			[
+				"se",
+				"security.js"
+			],
+			[
+				"syn",
 				"public/views/sync.hbs"
+			],
+			[
+				"mode",
+				"model.js"
+			],
+			[
+				"css",
+				"public/css/bootstrap.css"
+			],
+			[
+				"guida",
+				"public/views/guidage.hbs"
+			],
+			[
+				"g",
+				"guidage.js"
+			],
+			[
+				"ap",
+				"public/js/app.js"
+			],
+			[
+				"guid",
+				"public/views/guidage.hbs"
+			],
+			[
+				"map",
+				"public/views/map.hbs"
 			],
 			[
 				"ser",
@@ -1575,10 +1634,6 @@
 			[
 				"model",
 				"model.js"
-			],
-			[
-				"se",
-				"security.js"
 			],
 			[
 				"ide",
@@ -1593,24 +1648,12 @@
 				"keys.js"
 			],
 			[
-				"inde",
-				"public/views/index.hbs"
-			],
-			[
 				"mo",
 				"model.js"
 			],
 			[
 				"n",
 				"public/views/favoris/new.hbs"
-			],
-			[
-				"favo",
-				"favoris.js"
-			],
-			[
-				"syn",
-				"public/views/sync.hbs"
 			],
 			[
 				"abou",
@@ -1629,10 +1672,6 @@
 				"public/views/favoris/edit.hbs"
 			],
 			[
-				"fa",
-				"public/views/favoris/index.hbs"
-			],
-			[
 				"html",
 				"public/index.html"
 			],
@@ -1647,10 +1686,6 @@
 			[
 				"la",
 				"sass/_layout.scss"
-			],
-			[
-				"lo",
-				"sass/_lightbox.scss"
 			],
 			[
 				"equi",
@@ -1723,10 +1758,6 @@
 			[
 				"satas",
 				"public/js/datas.js"
-			],
-			[
-				"mode",
-				"model.js"
 			],
 			[
 				"eve",
@@ -1985,10 +2016,6 @@
 				"lib/helpers.js"
 			],
 			[
-				"secu",
-				"lib/security.js"
-			],
-			[
 				"login",
 				"views/login.html"
 			],
@@ -2007,30 +2034,6 @@
 			[
 				"sec",
 				"lib/security.js"
-			],
-			[
-				"routin",
-				"lib/routing/front.js"
-			],
-			[
-				"bs",
-				"views/base.html"
-			],
-			[
-				"fo",
-				"lib/routing/front.js"
-			],
-			[
-				"st",
-				"public/css/style.css"
-			],
-			[
-				"con",
-				"Controllers/HomeController.js"
-			],
-			[
-				"kerne",
-				"kernel.js"
 			]
 		],
 		"width": 0.0
